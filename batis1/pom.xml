@@ -6,7 +6,12 @@
 
     <groupId>lll</groupId>
     <artifactId>batis1</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>mybatis1-2_annotation</module>
+        <module>../batis1_2</module>
+    </modules>
 
 
     <dependencies>

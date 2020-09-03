@@ -6,6 +6,11 @@
         <option value="$PROJECT_DIR$/batis1/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/batis1/mybatis1-2_annotation/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />

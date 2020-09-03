@@ -6,12 +6,12 @@
 
     <groupId>lll</groupId>
     <artifactId>batis1</artifactId>
-    <packaging>pom</packaging>
+<!--    <packaging>pom</packaging>-->
     <version>1.0-SNAPSHOT</version>
     <modules>
 
         <module>../batis1_2</module>
-        <module>../batis_test</module>
+
     </modules>
 
 

@@ -41,34 +41,36 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/batis_test/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/batis_test/src/main/resources/testpackage/dao" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.14749263" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="lll" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis_test\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1\src\main\resources" />
       <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis_test\src\main\resources\testpackage\dao" />
-      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1_2\src\main\resources" />
-      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1_2\src\main\java" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis_test\src\main\resources\test\dao" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis_test\src\main\resources" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1\src\main\resources\lll\dao" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="testpackage" />
+      <recent name="lll" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis_test\src\main\resources\testpackage\dao" />
       <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis_test\src\main\resources" />
       <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1\src\main\resources" />
-      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1\src\main\resources\lll\dao" />
-      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1\src\main\resources\lll.dao" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1_2\src\main\resources" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1_2\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest2.findAll">
+  <component name="RunManager" selected="JUnit.MybatisTest1.findAll">
     <configuration name="MybatisTest1.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="batis1" />
       <extension name="coverage">
@@ -108,12 +110,12 @@
       <module name="batistest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="testpackage.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.test11" />
+      <option name="PACKAGE_NAME" value="testpackage.test" />
+      <option name="MAIN_CLASS_NAME" value="testpackage.test.test11" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -143,15 +145,15 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MybatisTest1.findAll" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
       <item itemvalue="JUnit.MybatisTest2.findAll" />
       <item itemvalue="JUnit.test11.test" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest2.findAll" />
-        <item itemvalue="JUnit.test11.test" />
         <item itemvalue="JUnit.MybatisTest1.findAll" />
+        <item itemvalue="JUnit.test11.test" />
+        <item itemvalue="JUnit.MybatisTest2.findAll" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +179,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599095313998</updated>
-      <workItem from="1599095317008" duration="16272000" />
+      <workItem from="1599095317008" duration="17843000" />
+      <workItem from="1599121332632" duration="1756000" />
     </task>
     <servers />
   </component>
@@ -197,50 +200,54 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="525" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1599100640853" />
-    <state x="271" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599114545158">
+    <state x="271" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599120738883">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="271" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1599114545158" />
-    <state x="504" y="317" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1599114546897">
+    <state x="271" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1599120738883" />
+    <state x="504" y="295" width="431" height="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599120728251">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="504" y="317" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.860@0.0.1440.860" timestamp="1599114546897" />
+    <state x="504" y="295" width="431" height="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.860@0.0.1440.860" timestamp="1599120728251" />
+    <state x="504" y="317" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1599120740126">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="504" y="317" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.860@0.0.1440.860" timestamp="1599120740126" />
     <state x="671" y="224" key="FileChooserDialogImpl" timestamp="1599108070198">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="671" y="224" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1599108070198" />
-    <state width="1396" height="277" key="GridCell.Tab.0.bottom" timestamp="1599117564444">
+    <state width="1396" height="253" key="GridCell.Tab.0.bottom" timestamp="1599123095505">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="277" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599117564444" />
-    <state width="1396" height="277" key="GridCell.Tab.0.center" timestamp="1599117564444">
+    <state width="1396" height="253" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599123095505" />
+    <state width="1396" height="253" key="GridCell.Tab.0.center" timestamp="1599123095504">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="277" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599117564444" />
-    <state width="1396" height="277" key="GridCell.Tab.0.left" timestamp="1599117564444">
+    <state width="1396" height="253" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599123095504" />
+    <state width="1396" height="253" key="GridCell.Tab.0.left" timestamp="1599123095504">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="277" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599117564444" />
-    <state width="1396" height="277" key="GridCell.Tab.0.right" timestamp="1599117564444">
+    <state width="1396" height="253" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599123095504" />
+    <state width="1396" height="253" key="GridCell.Tab.0.right" timestamp="1599123095505">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="277" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599117564444" />
-    <state width="1396" height="270" key="GridCell.Tab.1.bottom" timestamp="1599100518150">
+    <state width="1396" height="253" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599123095505" />
+    <state width="1396" height="270" key="GridCell.Tab.1.bottom" timestamp="1599121100384">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="270" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599100518150" />
-    <state width="1396" height="270" key="GridCell.Tab.1.center" timestamp="1599100518150">
+    <state width="1396" height="270" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599121100384" />
+    <state width="1396" height="270" key="GridCell.Tab.1.center" timestamp="1599121100384">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="270" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1599100518150" />
-    <state width="1396" height="270" key="GridCell.Tab.1.left" timestamp="1599100518149">
+    <state width="1396" height="270" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1599121100384" />
+    <state width="1396" height="270" key="GridCell.Tab.1.left" timestamp="1599121100384">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="270" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1599100518149" />
-    <state width="1396" height="270" key="GridCell.Tab.1.right" timestamp="1599100518150">
+    <state width="1396" height="270" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1599121100384" />
+    <state width="1396" height="270" key="GridCell.Tab.1.right" timestamp="1599121100384">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="270" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1599100518150" />
+    <state width="1396" height="270" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1599121100384" />
     <state x="182" y="57" key="SettingsEditor" timestamp="1599097420988">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

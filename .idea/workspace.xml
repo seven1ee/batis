@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5c178c4-1734-4fe5-966f-eeb65f905920" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Tag Library Descriptor" />
+        <option value="XHTML File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gymg12NY2W4p5DU6GSAHR5QDWp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="XHTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/batis1/src/main/resources/lll.dao" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.14749263" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1\src\main\resources\lll.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1\src\main\resources" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1\src\main\resources\lll\dao" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1\src\main\resources\lll.dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisTest1.findAll">
+    <configuration name="MybatisTest1.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="batis1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lll.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="PACKAGE_NAME" value="lll.test" />
+      <option name="MAIN_CLASS_NAME" value="lll.test.MybatisTest1" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="111:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/111_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="111:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MybatisTest1.findAll" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisTest1.findAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5c178c4-1734-4fe5-966f-eeb65f905920" name="Default Changelist" comment="" />
+      <created>1599095313998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599095313998</updated>
+      <workItem from="1599095317008" duration="7550000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="312" y="90" key="#Project_Structure" timestamp="1599098243419">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="90" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1599098243419" />
+    <state x="174" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599102094678">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="174" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1599102094678" />
+    <state x="525" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1599100640853">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="525" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1599100640853" />
+    <state x="271" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599098739524">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="271" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1599098739524" />
+    <state x="671" y="224" key="FileChooserDialogImpl" timestamp="1599096521006">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="671" y="224" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1599096521006" />
+    <state width="1396" height="341" key="GridCell.Tab.0.bottom" timestamp="1599101422746">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="341" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599101422746" />
+    <state width="1396" height="341" key="GridCell.Tab.0.center" timestamp="1599101422745">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="341" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599101422745" />
+    <state width="1396" height="341" key="GridCell.Tab.0.left" timestamp="1599101422745">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="341" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599101422745" />
+    <state width="1396" height="341" key="GridCell.Tab.0.right" timestamp="1599101422745">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="341" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599101422745" />
+    <state width="1396" height="270" key="GridCell.Tab.1.bottom" timestamp="1599100518150">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="270" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599100518150" />
+    <state width="1396" height="270" key="GridCell.Tab.1.center" timestamp="1599100518150">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="270" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1599100518150" />
+    <state width="1396" height="270" key="GridCell.Tab.1.left" timestamp="1599100518149">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="270" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1599100518149" />
+    <state width="1396" height="270" key="GridCell.Tab.1.right" timestamp="1599100518150">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="270" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1599100518150" />
+    <state x="182" y="57" key="SettingsEditor" timestamp="1599097420988">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="182" y="57" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1599097420988" />
+    <state x="90" y="27" key="new project wizard" timestamp="1599101405309">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="90" y="27" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1599101405309" />
+  </component>
+</project>

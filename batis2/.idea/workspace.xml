@@ -10,4 +10,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="90" y="133" key="new project wizard" timestamp="1599188007748">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="90" y="133" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1599188007748" />
+  </component>
 </project>

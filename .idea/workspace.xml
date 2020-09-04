@@ -41,13 +41,31 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/batis_test/src/main/resources/testpackage/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../batis2/src/main/resources/so/dao" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.14749263" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="so" />
+      <recent name="testpackage" />
+      <recent name="lll" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis2\src\main\resources\so\dao" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis2\src\main\resources" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis_test\src\main\resources\testpackage\dao" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis_test\src\main\resources" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="so.test" />
+      <recent name="so.domain" />
+      <recent name="so.dao" />
+      <recent name="test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1" />
       <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1\src\main\resources" />
@@ -55,68 +73,83 @@
       <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis_test\src\main\resources\test\dao" />
       <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis_test\src\main\resources" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="testpackage" />
-      <recent name="lll" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis_test\src\main\resources\testpackage\dao" />
-      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis_test\src\main\resources" />
-      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1\src\main\resources" />
-      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1_2\src\main\resources" />
-      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis1_2\src\main\java" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest1.findAll">
-    <configuration name="MybatisTest1.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="batis1" />
+  <component name="RunManager" selected="JUnit.MybatisTest2_2.testSave">
+    <configuration name="EmpTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="batis2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lll.test.*" />
+          <option name="PATTERN" value="so.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="PACKAGE_NAME" value="lll.test" />
-      <option name="MAIN_CLASS_NAME" value="lll.test.MybatisTest1" />
-      <option name="METHOD_NAME" value="findAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest2.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="batis1_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lll.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lll.test" />
-      <option name="MAIN_CLASS_NAME" value="lll.test.MybatisTest2" />
-      <option name="METHOD_NAME" value="findAll" />
+      <option name="PACKAGE_NAME" value="so.test" />
+      <option name="MAIN_CLASS_NAME" value="so.test.EmpTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test11.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="batistest" />
+    <configuration name="MybatisTest2_2.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="batis2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testpackage.test.*" />
+          <option name="PATTERN" value="so.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testpackage.test" />
-      <option name="MAIN_CLASS_NAME" value="testpackage.test.test11" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="so.test" />
+      <option name="MAIN_CLASS_NAME" value="so.test.MybatisTest2_2" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest2_2.testLikeName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="batis2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="so.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="so.test" />
+      <option name="MAIN_CLASS_NAME" value="so.test.MybatisTest2_2" />
+      <option name="METHOD_NAME" value="testLikeName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest2_2.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="batis2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="so.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="so.test" />
+      <option name="MAIN_CLASS_NAME" value="so.test.MybatisTest2_2" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest2_2.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="batis2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="so.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="so.test" />
+      <option name="MAIN_CLASS_NAME" value="so.test.MybatisTest2_2" />
+      <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,16 +177,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MybatisTest1.findAll" />
-      <item itemvalue="JUnit.MybatisTest2.findAll" />
-      <item itemvalue="JUnit.test11.test" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
+      <item itemvalue="JUnit.MybatisTest2_2.testLikeName" />
+      <item itemvalue="JUnit.MybatisTest2_2.testUpdate" />
+      <item itemvalue="JUnit.MybatisTest2_2.testSave" />
+      <item itemvalue="JUnit.MybatisTest2_2.testDelete" />
+      <item itemvalue="JUnit.EmpTest.testFindAll" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest1.findAll" />
-        <item itemvalue="JUnit.MybatisTest2.findAll" />
-        <item itemvalue="JUnit.test11.test" />
+        <item itemvalue="JUnit.MybatisTest2_2.testSave" />
+        <item itemvalue="JUnit.EmpTest.testFindAll" />
+        <item itemvalue="JUnit.MybatisTest2_2.testDelete" />
+        <item itemvalue="JUnit.MybatisTest2_2.testUpdate" />
+        <item itemvalue="JUnit.MybatisTest2_2.testLikeName" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +219,7 @@
       <workItem from="1599095317008" duration="17843000" />
       <workItem from="1599121332632" duration="2521000" />
       <workItem from="1599123959241" duration="289000" />
+      <workItem from="1599180235213" duration="6968000" />
     </task>
     <servers />
   </component>
@@ -189,6 +227,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="624" y="90" key="#Notifications" timestamp="1599182849039">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="624" y="90" key="#Notifications/0.0.1440.860@0.0.1440.860" timestamp="1599182849039" />
     <state x="312" y="90" key="#Project_Structure" timestamp="1599098243419">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -197,42 +239,42 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="174" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1599102094678" />
-    <state x="525" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1599100640853">
+    <state x="525" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1599184776601">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="525" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1599100640853" />
-    <state x="271" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599120738883">
+    <state x="525" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1599184776601" />
+    <state x="271" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599180812738">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="271" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1599120738883" />
+    <state x="271" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1599180812738" />
     <state x="504" y="295" width="431" height="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599120728251">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="504" y="295" width="431" height="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.860@0.0.1440.860" timestamp="1599120728251" />
-    <state x="504" y="317" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1599120740126">
+    <state x="504" y="317" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1599180814647">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="504" y="317" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.860@0.0.1440.860" timestamp="1599120740126" />
+    <state x="504" y="317" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.860@0.0.1440.860" timestamp="1599180814647" />
     <state x="671" y="224" key="FileChooserDialogImpl" timestamp="1599108070198">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="671" y="224" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1599108070198" />
-    <state width="1396" height="253" key="GridCell.Tab.0.bottom" timestamp="1599124250037">
+    <state width="1396" height="314" key="GridCell.Tab.0.bottom" timestamp="1599187675637">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="253" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599124250037" />
-    <state width="1396" height="253" key="GridCell.Tab.0.center" timestamp="1599124250037">
+    <state width="1396" height="314" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599187675637" />
+    <state width="1396" height="314" key="GridCell.Tab.0.center" timestamp="1599187675637">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="253" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599124250037" />
-    <state width="1396" height="253" key="GridCell.Tab.0.left" timestamp="1599124250037">
+    <state width="1396" height="314" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599187675637" />
+    <state width="1396" height="314" key="GridCell.Tab.0.left" timestamp="1599187675636">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="253" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599124250037" />
-    <state width="1396" height="253" key="GridCell.Tab.0.right" timestamp="1599124250037">
+    <state width="1396" height="314" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599187675636" />
+    <state width="1396" height="314" key="GridCell.Tab.0.right" timestamp="1599187675637">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="253" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599124250037" />
+    <state width="1396" height="314" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599187675637" />
     <state width="1396" height="270" key="GridCell.Tab.1.bottom" timestamp="1599124250027">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -253,9 +295,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="182" y="57" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1599097420988" />
-    <state x="145" y="50" width="888" height="473" key="new project wizard" timestamp="1599124129648">
+    <state x="145" y="50" width="888" height="473" key="new project wizard" timestamp="1599180402022">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="145" y="50" width="888" height="473" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1599124129648" />
+    <state x="145" y="50" width="888" height="473" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1599180402022" />
   </component>
 </project>

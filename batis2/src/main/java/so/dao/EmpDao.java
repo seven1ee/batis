@@ -11,4 +11,8 @@ import java.util.List;
 public interface EmpDao
 {
     List<Emp> findAll();
+    Emp findById(Integer userid);
+    int save(Emp emp);
+    int delete(Integer userid);
+    int updateEmp(Emp emp);
 }

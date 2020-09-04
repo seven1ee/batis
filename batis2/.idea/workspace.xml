@@ -1,19 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5559fae9-3bf0-4991-a558-f624406f6d1d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1h1oSelv24L6yN1hMddzKhVJoUJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.22692889" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis2\src\main\resources\so\dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EmpTest.testsave">
+    <configuration name="EmpTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="batis2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="so.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="so.test" />
+      <option name="MAIN_CLASS_NAME" value="so.test.EmpTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpTest.testFindId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="batis2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="so.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="so.test" />
+      <option name="MAIN_CLASS_NAME" value="so.test.EmpTest" />
+      <option name="METHOD_NAME" value="testFindId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpTest.testdel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="batis2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="so.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="so.test" />
+      <option name="MAIN_CLASS_NAME" value="so.test.EmpTest" />
+      <option name="METHOD_NAME" value="testdel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpTest.testsave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="batis2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="so.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="so.test" />
+      <option name="MAIN_CLASS_NAME" value="so.test.EmpTest" />
+      <option name="METHOD_NAME" value="testsave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpTest.testupdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="batis2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="so.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="so.test" />
+      <option name="MAIN_CLASS_NAME" value="so.test.EmpTest" />
+      <option name="METHOD_NAME" value="testupdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmpTest.testsave" />
+        <item itemvalue="JUnit.EmpTest.testdel" />
+        <item itemvalue="JUnit.EmpTest.testFindId" />
+        <item itemvalue="JUnit.EmpTest.testFindAll" />
+        <item itemvalue="JUnit.EmpTest.testupdate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5559fae9-3bf0-4991-a558-f624406f6d1d" name="Default Changelist" comment="" />
+      <created>1599187960392</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599187960392</updated>
+      <workItem from="1599187963574" duration="4728000" />
+      <workItem from="1599195886181" duration="1924000" />
+      <workItem from="1599197845458" duration="1457000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="90" y="133" key="new project wizard" timestamp="1599188007748">
+    <state width="1396" height="270" key="GridCell.Tab.0.bottom" timestamp="1599199388080">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="90" y="133" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1599188007748" />
+    <state width="1396" height="270" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599199388080" />
+    <state width="1396" height="270" key="GridCell.Tab.0.center" timestamp="1599199388079">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="270" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599199388079" />
+    <state width="1396" height="270" key="GridCell.Tab.0.left" timestamp="1599199388079">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="270" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599199388079" />
+    <state width="1396" height="270" key="GridCell.Tab.0.right" timestamp="1599199388080">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="270" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599199388080" />
+    <state x="223" y="13" key="SettingsEditor" timestamp="1599197666192">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="223" y="13" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1599197666192" />
+    <state x="90" y="133" key="new project wizard" timestamp="1599196666913">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="90" y="133" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1599196666913" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1599189348651">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1599189348651" />
   </component>
 </project>

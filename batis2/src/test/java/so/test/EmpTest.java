@@ -8,7 +8,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import so.dao.EmpDao;
-import so.dao.IUserDao;
+
 import so.domain.Emp;
 
 import java.io.IOException;
@@ -19,7 +19,7 @@ public class EmpTest
 {
     private  EmpDao empDao;
     private  SqlSession session;
-    InputStream input;
+    private  InputStream input;
     @Before
     public void init() throws IOException
     {
@@ -50,4 +50,31 @@ public class EmpTest
         System.out.println(emps);
 
     }
+
+    @Test
+    public void testFindId()
+    {
+        Emp emps= empDao.findById(2);
+        System.out.println(emps);
+    }
+
+    @Test
+    public void testsave()
+    {
+        Emp emp = new Emp();
+        emp.setUsername("zz");
+        emp.setSex("男");
+        emp.setAddress("da");
+        int save = empDao.save(emp);
+        System.out.println("影响："+save);
+        System.out.println("id是："+emp.getId());
+    }
+
+    @Test
+    public void testdel()
+    {
+        int delete = empDao.delete(6);
+        System.out.println(delete);
+    }
+
 }

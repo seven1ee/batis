@@ -177,12 +177,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
       <item itemvalue="JUnit.MybatisTest2_2.testLikeName" />
       <item itemvalue="JUnit.MybatisTest2_2.testUpdate" />
       <item itemvalue="JUnit.MybatisTest2_2.testSave" />
       <item itemvalue="JUnit.MybatisTest2_2.testDelete" />
       <item itemvalue="JUnit.EmpTest.testFindAll" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
     </list>
     <recent_temporary>
       <list>
@@ -220,6 +220,7 @@
       <workItem from="1599121332632" duration="2521000" />
       <workItem from="1599123959241" duration="289000" />
       <workItem from="1599180235213" duration="7092000" />
+      <workItem from="1599197222865" duration="12000" />
     </task>
     <servers />
   </component>

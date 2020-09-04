@@ -7,4 +7,20 @@
     <select id="findAll" resultType="so.domain.Emp">
         select * from emp
     </select>
+
+    <select id="findById" parameterType="java.lang.Integer" resultType="so.domain.Emp">
+        select * from emp where id = #{id}
+    </select>
+
+    <delete id="delete" parameterType="java.lang.Integer" >
+        delete from emp where id = #{id}
+    </delete>
+    <insert id="save"  parameterType="so.domain.Emp">
+<!--                 配置保存时获取插入id keyColumn数据库中的列名 keyProperty实体类     不写时无法返回-->
+        <selectKey keyColumn="id" keyProperty="id" resultType="int">
+            select  last_insert_id();
+        </selectKey>
+        insert into emp(name,sex,address) values(#{username},#{sex},#{address})
+    </insert>
+
 </mapper>

@@ -62,7 +62,7 @@ public class EmpTest
     public void testsave()
     {
         Emp emp = new Emp();
-        emp.setUsername("zz");
+        emp.setname("zz");
         emp.setSex("男");
         emp.setAddress("da");
         int save = empDao.save(emp);
@@ -77,4 +77,15 @@ public class EmpTest
         System.out.println(delete);
     }
 
+    @Test
+    public void testup()
+    {
+        Emp emp = new Emp();
+        emp.setId(9);
+        emp.setname("ppp");
+        emp.setSex("nan");
+        emp.setAddress("dasda");
+        int i = empDao.update(emp);
+        System.out.println(i);
+    }
 }

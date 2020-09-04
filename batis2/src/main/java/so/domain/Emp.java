@@ -6,7 +6,7 @@ import java.io.Serializable;
 public class Emp implements Serializable
 {
     private Integer id;
-    private String username;
+    private String name;
     private String sex;
     private String address;
 
@@ -19,7 +19,7 @@ public class Emp implements Serializable
     {
         return "Emp{" +
                 "id=" + id +
-                ", username='" + username+ '\'' +
+                ", name='" + name+ '\'' +
                 ", sex='" + sex + '\'' +
                 ", address='" + address + '\'' +
                 '}';
@@ -35,14 +35,14 @@ public class Emp implements Serializable
         this.id = id;
     }
 
-    public String getUsername()
+    public String getname()
     {
-        return username;
+        return name;
     }
 
-    public void setUsername(String username)
+    public void setname(String name)
     {
-        this.username = username;
+        this.name = name;
     }
 
     public String getSex()

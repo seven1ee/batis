@@ -111,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmpTest.testupdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmpTest.testup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="batis2" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +121,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="so.test" />
       <option name="MAIN_CLASS_NAME" value="so.test.EmpTest" />
-      <option name="METHOD_NAME" value="testupdate" />
+      <option name="METHOD_NAME" value="testup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,10 +130,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.EmpTest.testsave" />
-        <item itemvalue="JUnit.EmpTest.testdel" />
         <item itemvalue="JUnit.EmpTest.testFindId" />
         <item itemvalue="JUnit.EmpTest.testFindAll" />
-        <item itemvalue="JUnit.EmpTest.testupdate" />
+        <item itemvalue="JUnit.EmpTest.testup" />
+        <item itemvalue="JUnit.EmpTest.testdel" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +161,7 @@
       <updated>1599187960392</updated>
       <workItem from="1599187963574" duration="4728000" />
       <workItem from="1599195886181" duration="1924000" />
-      <workItem from="1599197845458" duration="1457000" />
+      <workItem from="1599197845458" duration="5520000" />
     </task>
     <servers />
   </component>
@@ -169,22 +169,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1396" height="270" key="GridCell.Tab.0.bottom" timestamp="1599199388080">
+    <state width="1396" height="479" key="GridCell.Tab.0.bottom" timestamp="1599203327751">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="270" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599199388080" />
-    <state width="1396" height="270" key="GridCell.Tab.0.center" timestamp="1599199388079">
+    <state width="1396" height="479" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599203327751" />
+    <state width="1396" height="479" key="GridCell.Tab.0.center" timestamp="1599203327750">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="270" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599199388079" />
-    <state width="1396" height="270" key="GridCell.Tab.0.left" timestamp="1599199388079">
+    <state width="1396" height="479" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599203327750" />
+    <state width="1396" height="479" key="GridCell.Tab.0.left" timestamp="1599203327750">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="270" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599199388079" />
-    <state width="1396" height="270" key="GridCell.Tab.0.right" timestamp="1599199388080">
+    <state width="1396" height="479" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599203327750" />
+    <state width="1396" height="479" key="GridCell.Tab.0.right" timestamp="1599203327750">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="270" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599199388080" />
+    <state width="1396" height="479" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599203327750" />
     <state x="223" y="13" key="SettingsEditor" timestamp="1599197666192">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

@@ -14,5 +14,6 @@ public interface EmpDao
     Emp findById(Integer userid);
     int save(Emp emp);
     int delete(Integer userid);
-    int updateEmp(Emp emp);
+    int update(Emp emp);
+    List<Emp> findByName();
 }

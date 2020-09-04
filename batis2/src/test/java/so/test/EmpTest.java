@@ -25,7 +25,7 @@ public class EmpTest
     {
 
         //读取配置文件
-        input= Resources.getResourceAsStream("SqlMapConfig.xml");
+        input=Resources.getResourceAsStream("SqlMapConfig.xml");
         //创建SqlSessionFactory工厂
         SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
         SqlSessionFactory factory = builder.build(input);
@@ -58,34 +58,44 @@ public class EmpTest
         System.out.println(emps);
     }
 
-    @Test
-    public void testsave()
-    {
-        Emp emp = new Emp();
-        emp.setname("zz");
-        emp.setSex("男");
-        emp.setAddress("da");
-        int save = empDao.save(emp);
-        System.out.println("影响："+save);
-        System.out.println("id是："+emp.getId());
-    }
+//    @Test
+//    public void testsave()
+//    {
+//        Emp emp = new Emp();
+//        emp.setname("zz");
+//        emp.setSex("男");
+//        emp.setAddress("da");
+//        int save = empDao.save(emp);
+//        System.out.println("影响："+save);
+//        System.out.println("id是："+emp.getId());
+//    }
+//
+//    @Test
+//    public void testdel()
+//    {
+//        int delete = empDao.delete(6);
+//        System.out.println(delete);
+//    }
+//
+//    @Test
+//    public void testup()
+//    {
+//        Emp emp = new Emp();
+//        emp.setId(9);
+//        emp.setname("ppp");
+//        emp.setSex("nan");
+//        emp.setAddress("dasda");
+//        int i = empDao.update(emp);
+//        System.out.println(i);
+//    }
 
     @Test
-    public void testdel()
+    public void testName()
     {
-        int delete = empDao.delete(6);
-        System.out.println(delete);
-    }
-
-    @Test
-    public void testup()
-    {
-        Emp emp = new Emp();
-        emp.setId(9);
-        emp.setname("ppp");
-        emp.setSex("nan");
-        emp.setAddress("dasda");
-        int i = empDao.update(emp);
-        System.out.println(i);
+        List<Emp> emps = empDao.findByName("李");
+        for (Emp emp:emps
+             ) {
+            System.out.println(emp);
+        }
     }
 }

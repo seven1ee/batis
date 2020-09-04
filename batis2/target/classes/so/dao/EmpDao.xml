@@ -4,7 +4,19 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--指定命名空间-->
 <mapper namespace="so.dao.EmpDao">
-    <select id="findAll" resultType="emp">
+    <resultMap id="empMap" type="so.domain.Emp">
+<!--        id设置主键,property为别名,column为数据库中数据-->
+        <id property="empid" column="id"></id>
+<!--            result设置非主键-->
+        <result property="empname" column="username"></result>
+        <result property="empsex" column="sex"></result>
+        <result property="empadd" column="address"></result>
+    </resultMap>
+
+
+
+
+    <select id="findAll" resultMap="empMap">
         select * from emp
     </select>
 
@@ -26,4 +38,8 @@
     <update id="update" parameterType="emp">
         update emp set address=#{address} where id=${id}
     </update>
+
+    <select id="findByName" parameterType="java.lang.String"  resultType="emp">
+        select * from emp where username like '%${value}%'
+    </select>
 </mapper>

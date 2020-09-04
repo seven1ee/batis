@@ -21,8 +21,23 @@
     <expand />
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1h1oSelv24L6yN1hMddzKhVJoUJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,18 +50,38 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/batis2test/src/main/resources/test/dao" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22692889" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis2\batis2test\src\main\resources\test\dao" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis2\batis2test\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis2_test" />
       <recent name="C:\Users\Administrator\Documents\GitHub\batis\batis2\src\main\resources\so\dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmpTest.testsave">
+  <component name="RunManager" selected="JUnit.EmpTest.testFindAll">
+    <configuration name="EmpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="batis2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="so.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="so.test" />
+      <option name="MAIN_CLASS_NAME" value="so.test.EmpTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmpTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="batis2" />
       <extension name="coverage">
@@ -79,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmpTest.testdel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmpTest.testName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="batis2" />
       <extension name="coverage">
         <pattern>
@@ -89,23 +124,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="so.test" />
       <option name="MAIN_CLASS_NAME" value="so.test.EmpTest" />
-      <option name="METHOD_NAME" value="testdel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmpTest.testsave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="batis2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="so.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="so.test" />
-      <option name="MAIN_CLASS_NAME" value="so.test.EmpTest" />
-      <option name="METHOD_NAME" value="testsave" />
+      <option name="METHOD_NAME" value="testName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmpTest.testsave" />
-        <item itemvalue="JUnit.EmpTest.testFindId" />
         <item itemvalue="JUnit.EmpTest.testFindAll" />
+        <item itemvalue="JUnit.EmpTest.testFindId" />
+        <item itemvalue="JUnit.EmpTest" />
         <item itemvalue="JUnit.EmpTest.testup" />
-        <item itemvalue="JUnit.EmpTest.testdel" />
+        <item itemvalue="JUnit.EmpTest.testName" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +180,7 @@
       <updated>1599187960392</updated>
       <workItem from="1599187963574" duration="4728000" />
       <workItem from="1599195886181" duration="1924000" />
-      <workItem from="1599197845458" duration="5520000" />
+      <workItem from="1599197845458" duration="9042000" />
     </task>
     <servers />
   </component>
@@ -169,30 +188,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1396" height="479" key="GridCell.Tab.0.bottom" timestamp="1599203327751">
+    <state x="525" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1599206685931">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="479" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599203327751" />
-    <state width="1396" height="479" key="GridCell.Tab.0.center" timestamp="1599203327750">
+    <state x="525" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1599206685931" />
+    <state width="1396" height="478" key="GridCell.Tab.0.bottom" timestamp="1599206334838">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="479" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599203327750" />
-    <state width="1396" height="479" key="GridCell.Tab.0.left" timestamp="1599203327750">
+    <state width="1396" height="478" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599206334838" />
+    <state width="1396" height="478" key="GridCell.Tab.0.center" timestamp="1599206334837">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="479" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599203327750" />
-    <state width="1396" height="479" key="GridCell.Tab.0.right" timestamp="1599203327750">
+    <state width="1396" height="478" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599206334837" />
+    <state width="1396" height="478" key="GridCell.Tab.0.left" timestamp="1599206334837">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="479" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599203327750" />
-    <state x="223" y="13" key="SettingsEditor" timestamp="1599197666192">
+    <state width="1396" height="478" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599206334837" />
+    <state width="1396" height="478" key="GridCell.Tab.0.right" timestamp="1599206334838">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="223" y="13" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1599197666192" />
-    <state x="90" y="133" key="new project wizard" timestamp="1599196666913">
+    <state width="1396" height="478" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599206334838" />
+    <state x="223" y="13" key="SettingsEditor" timestamp="1599206318533">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="90" y="133" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1599196666913" />
+    <state x="223" y="13" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1599206318533" />
+    <state x="90" y="133" key="new project wizard" timestamp="1599206267957">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="90" y="133" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1599206267957" />
     <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1599189348651">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

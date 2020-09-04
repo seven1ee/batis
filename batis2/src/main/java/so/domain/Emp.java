@@ -1,67 +1,125 @@
 package so.domain;
 
 import java.io.Serializable;
+import java.util.Date;
 
 
 public class Emp implements Serializable
 {
-    private Integer id;
-    private String name;
-    private String sex;
-    private String address;
+//    private Integer id;
+//    private String name;
+//    private String sex;
+//    private String address;
 
-    public Emp()
-    {
-    }
+    private Integer empid;
+    private String empname;
+    private String empsex;
+    private String empadd;
 
     @Override
     public String toString()
     {
         return "Emp{" +
-                "id=" + id +
-                ", name='" + name+ '\'' +
-                ", sex='" + sex + '\'' +
-                ", address='" + address + '\'' +
+                "empid=" + empid +
+                ", empname='" + empname + '\'' +
+                ", empsex='" + empsex + '\'' +
+                ", empadd='" + empadd + '\'' +
                 '}';
     }
 
-    public Integer getId()
+    //    @Override
+//    public String toString()
+//    {
+//        return "Emp{" +
+//                "id=" + id +
+//                ", name='" + name + '\'' +
+//                ", sex='" + sex + '\'' +
+//                ", address='" + address + '\'' +
+//                '}';
+//    }
+
+//    public Integer getId()
+//    {
+//        return id;
+//    }
+//
+//    public void setId(Integer id)
+//    {
+//        this.id = id;
+//    }
+//
+//    public String getName()
+//    {
+//        return name;
+//    }
+//
+//    public void setName(String name)
+//    {
+//        this.name = name;
+//    }
+//
+//    public String getSex()
+//    {
+//        return sex;
+//    }
+//
+//    public void setSex(String sex)
+//    {
+//        this.sex = sex;
+//    }
+//
+//    public String getAddress()
+//    {
+//        return address;
+//    }
+//
+//    public void setAddress(String address)
+//    {
+//        this.address = address;
+//    }
+
+    public Integer getEmpid()
     {
-        return id;
+        return empid;
     }
 
-    public void setId(Integer id)
+    public void setEmpid(Integer empid)
     {
-        this.id = id;
+        this.empid = empid;
     }
 
-    public String getname()
+    public String getEmpname()
     {
-        return name;
+        return empname;
     }
 
-    public void setname(String name)
+    public void setEmpname(String empname)
     {
-        this.name = name;
+        this.empname = empname;
     }
 
-    public String getSex()
+    public String getEmpsex()
     {
-        return sex;
+        return empsex;
     }
 
-    public void setSex(String sex)
+    public void setEmpsex(String empsex)
     {
-        this.sex = sex;
+        this.empsex = empsex;
     }
 
-    public String getAddress()
+    public String getEmpadd()
     {
-        return address;
+        return empadd;
     }
 
-    public void setAddress(String address)
+    public void setEmpadd(String empadd)
     {
-        this.address = address;
+        this.empadd = empadd;
     }
+
+    public Emp()
+    {
+    }
+
 }
